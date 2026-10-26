@@ -1,0 +1,5 @@
+# Escreva um código que peça a vida do jogador. Se for igual a 0, imprima "Game Over".
+vida_jogador = int(input("Qual a vida do jogador?"))
+
+if vida_jogador <= 0:
+    print("Game Over!")
